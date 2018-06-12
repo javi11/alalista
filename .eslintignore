@@ -1,0 +1,15 @@
+node_modules/
+packages/alalista-app/android
+packages/alalista-app/ios
+target/
+*.csv
+*.dat
+*.iml
+*.log
+*.out
+*.pid
+*.seed
+*.sublime-*
+*.swo
+*.swp
+*.tgz

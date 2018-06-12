@@ -1,0 +1,59 @@
+{
+  "name": "alalista-app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "exp ": "exp",
+    "start": "exp start",
+    "test": "jest  --notify --forceExit"
+  },
+  "private": true,
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "jwt-decode": "^2.2.0",
+    "lodash": "4.17.4",
+    "native-base": "^2.3.10",
+    "prop-types": "^15.6.1",
+    "react-is": "^16.3.1",
+    "react-native-device-log": "^1.0.2",
+    "react-native-keyboard-spacer": "^0.4.1",
+    "react-native-maps": "^0.21.0",
+    "react-native-tab-view": "^0.0.77",
+    "react-navigation": "^1.5.2",
+    "websql": "^0.4.4",
+    "expo": "^27.0.1",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-27.0.0.tar.gz"
+  },
+  "devDependencies": {
+    "babel-jest": "23.0.0-alpha.0",
+    "babel-preset-react-native": "^4.0.0",
+    "flow-bin": "0.68.0",
+    "flow-typed": "2.2.3",
+    "graphql": "^0.13.2",
+    "husky": "0.14.3",
+    "jest-expo": "^26.0.0",
+    "react-native-debugger-open": "^0.3.17",
+    "react-test-renderer": "^16.2.0"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-navigation|expo|native-base|native-base-shoutem-theme|@expo)"
+    ]
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javi11/alalista.git"
+  },
+  "author": "javicuba11@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javi11/alalista/issues"
+  },
+  "homepage": "https://github.com/javi11/alalista#readme"
+}

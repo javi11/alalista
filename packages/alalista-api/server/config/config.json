@@ -1,0 +1,8 @@
+{
+  "auth": {
+    "issuer": "alalista",
+    "audience": "alalista.com",
+    "accessTokenTTL": 31536000,
+    "refreshTokenTTL": 31536000
+  }
+}
